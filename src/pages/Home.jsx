@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import dividerDesktop from '../assets/images/pattern-divider-desktop.svg';
 import dice from '../assets/images/icon-dice.svg';
 import axios from 'axios';
+import Spinner from 'react-bootstrap/Spinner';
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -43,7 +44,9 @@ const Home = () => {
   };
 
   if (loading) {
-    return <div className="flex items-center justify-center min-h-screen">Loading...</div>;
+    return <div className="flex items-center justify-center min-h-screen">
+        <Spinner animation="border" variant="primary" />
+    </div>;
   }
 
   return (
