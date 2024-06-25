@@ -56,14 +56,14 @@ const Home = () => {
           <h3 className="text-[--NeonGreen] mt-6 font-[Monrope] md:text-[28px]">{currentData.number}</h3>
 
           <div className="p-4 flex justify-center">
-            <p className="xl:text-[26px] text-[24px] md:text-[50px] w-[95%] text-center font-extrabold text-[--LightCyan]">{currentData.text}</p>
+            <p className="xl:text-[26px] xs:text-[24px] md:text-[50px] w-[95%] text-center font-extrabold text-[--LightCyan]">{currentData.text}</p>
           </div>
 
-          <div className="xl:mt-4 mt-6 w-[90%] xl:flex xl:justify-center absolute bottom-[200px] md:bottom-[350px] md:flex md:justify-center lg:bottom-[350px]">
+          <div className="xl:mt-4 mt-6 w-[90%] xl:flex xl:justify-center absolute xs:bottom-[200px] md:bottom-[350px] md:flex md:justify-center lg:bottom-[350px]">
             <img src={dividerDesktop} alt="" />
           </div>
 
-          <div className="dice_icon xl:mt-4 mt-6 cursor-pointer bg-[--NeonGreen] md:h-[70px] md:w-[70px] xl:h-[50px] xl:w-[50px] h-[50px] w-[50px] flex justify-center items-center rounded-full absolute bottom-[130px] md:bottom-[235px] lg:bottom-[280px] hover:shadow-glow" 
+          <div className="dice_icon xl:mt-4 mt-6 cursor-pointer bg-[--NeonGreen] md:h-[70px] md:w-[70px] xl:h-[50px] xl:w-[50px] h-[50px] w-[50px] flex justify-center items-center rounded-full absolute xs:bottom-[120px] md:bottom-[235px] lg:bottom-[280px] hover:shadow-glow" 
           onClick={changeText}
           
         //   style={{ position: 'absolute', bottom: '275px' }}
