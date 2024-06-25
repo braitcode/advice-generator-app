@@ -53,10 +53,10 @@ const Home = () => {
     <div className="bg-[--DarkBlue] h-[100vh] flex justify-center items-center">
       <div className="bg-[--DarkGrayishBlue] w-[90%] h-[55%] xl:h-[35%] xl:w-[30%] rounded-lg">
         <div className="flex justify-center flex-col gap-3 items-center">
-          <h3 className="text-[--NeonGreen] mt-8 font-[Monrope] md:text-[28px]">{currentData.number}</h3>
+          <h3 className="text-[--NeonGreen] mt-6 font-[Monrope] md:text-[28px]">{currentData.number}</h3>
 
           <div className="p-4 flex justify-center">
-            <p className="xl:text-[28px] text-[26px] md:text-[50px] w-[95%] text-center font-extrabold text-[--LightCyan]">{currentData.text}</p>
+            <p className="xl:text-[26px] text-[24px] md:text-[50px] w-[95%] text-center font-extrabold text-[--LightCyan]">{currentData.text}</p>
           </div>
 
           <div className="xl:mt-4 mt-6 w-[90%] xl:flex xl:justify-center absolute bottom-[200px] md:bottom-[350px] md:flex md:justify-center lg:bottom-[350px]">
