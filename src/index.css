@@ -10,7 +10,7 @@
     --GrayishBlue: hsl(217, 19%, 38%);
     --DarkGrayishBlue: hsl(217, 19%, 24%);
     --DarkBlue: hsl(218, 23%, 16%);
-    /* --family: "Manrope", "Sans-serif"; */
+    --family: "Manrope", "Sans-serif";
     --weight: 800;
     --fontSize: 28px;
 }
