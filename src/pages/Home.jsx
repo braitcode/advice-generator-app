@@ -59,11 +59,11 @@ const Home = () => {
             <p className="xl:text-[28px] text-[26px] md:text-[50px] w-[95%] text-center font-extrabold text-[--LightCyan]">{currentData.text}</p>
           </div>
 
-          <div className="xl:mt-4 mt-6 w-[90%] xl:flex xl:justify-center absolute bottom-[200px] md:bottom-[330px] md:flex md:justify-center lg:bottom-[350px]">
+          <div className="xl:mt-4 mt-6 w-[90%] xl:flex xl:justify-center absolute bottom-[200px] md:bottom-[350px] md:flex md:justify-center lg:bottom-[350px]">
             <img src={dividerDesktop} alt="" />
           </div>
 
-          <div className="dice_icon xl:mt-4 mt-6 cursor-pointer bg-[--NeonGreen] h-[50px] w-[50px] flex justify-center items-center rounded-full absolute bottom-[130px] md:bottom-[250px] lg:bottom-[280px] hover:shadow-glow" 
+          <div className="dice_icon xl:mt-4 mt-6 cursor-pointer bg-[--NeonGreen] md:h-[70px] md:w-[70px] h-[50px] w-[50px] flex justify-center items-center rounded-full absolute bottom-[130px] md:bottom-[235px] lg:bottom-[280px] hover:shadow-glow" 
           onClick={changeText}
           
         //   style={{ position: 'absolute', bottom: '275px' }}
