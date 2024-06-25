@@ -1,6 +1,6 @@
 import './App.css'
 import Home from './pages/Home'
-import NewHome from './pages/NewHome'
+// import NewHome from './pages/NewHome'
 
 function App() {
   
