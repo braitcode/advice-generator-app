@@ -63,7 +63,7 @@ const Home = () => {
             <img src={dividerDesktop} alt="" />
           </div>
 
-          <div className="dice_icon xl:mt-4 mt-6 cursor-pointer bg-[--NeonGreen] md:h-[70px] md:w-[70px] h-[50px] w-[50px] flex justify-center items-center rounded-full absolute bottom-[130px] md:bottom-[235px] lg:bottom-[280px] hover:shadow-glow" 
+          <div className="dice_icon xl:mt-4 mt-6 cursor-pointer bg-[--NeonGreen] md:h-[70px] md:w-[70px] xl:h-[50px] xl:w-[50px] h-[50px] w-[50px] flex justify-center items-center rounded-full absolute bottom-[130px] md:bottom-[235px] lg:bottom-[280px] hover:shadow-glow" 
           onClick={changeText}
           
         //   style={{ position: 'absolute', bottom: '275px' }}
