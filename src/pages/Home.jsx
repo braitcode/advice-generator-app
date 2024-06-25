@@ -63,7 +63,7 @@ const Home = () => {
             <img src={dividerDesktop} alt="" />
           </div>
 
-          <div className="dice_icon flex items-center justify-center absolute bottom-0" 
+          <div className="dice_icon flex items-center justify-center absolute -bottom-5" 
           onClick={changeText}
           >
             <button className="hover:shadow-glow  bg-glow p-3 rounded-full cursor-pointer">
